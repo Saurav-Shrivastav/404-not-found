@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+nav {
+    width: 80%;
+    margin: auto;
+    font-family: Inconsolata;
+    font-size: 24px;
+    line-height: 25px;
+    letter-spacing: -0.08em;
+    color: #333333;
+}
+
+.scarecrow-img {
+    width: 539px;
+    height: 447px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+footer {
+    margin-top: 5%;
+
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat', monospace;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #BDBDBD;
+}
+
+footer a {
+    color: #979595;
+    display: inline-block;
+}
+
+footer a:hover {
+    transform: translateY(-5px);
+}
+
+header h1 {
+    font-family: 'Space Mono', monospace;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 95px;
+    letter-spacing: -0.035em; 
+
+    color: #333333; 
+    margin: 0;
+}
+
+header p {
+    margin-top: 8%;
+    margin-bottom: 15%;
+
+    max-width: 400px;
+    font-family: Space Mono;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -0.035em;
+
+    /* Gray 2 */
+
+    color: #4F4F4F;
+}
+
+header a {
+    text-decoration: none;
+    background: #333333;
+    padding: 3%;
+    font-family: 'Space Mono', monospace;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
+
+    letter-spacing: -0.035em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+    transition: 300ms;
+    display: inline-block;
+}
+
+header a:hover {
+    background: blue;
+    transform: translateY(-8px);
+}
+
+
+@media (max-width: 850px) {
+    .wrapper {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .scarecrow-img {
+        width: 17.875rem;
+        height: 14.875rem;
+    }
+    header h1 {
+        font-size: 48px;
+        line-height: 71px;
+        letter-spacing: -0.035em;   
+    }
+    footer {
+        font-size: small;
+    }
+}
+  
+  
